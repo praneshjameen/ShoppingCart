@@ -98,7 +98,7 @@ response.setDateHeader("Expires", 0);%>
 								style="float: left; margin: 0.5%;" class="btn btn-outline-primary">+
 								Cart</a></logic:equal>
 							<a href="user.do?method=buyNow&id=${productid}"
-								style="float: left; margin: 0.5%;" class="btn btn-success">Buy</a>
+								style="float: left; margin: 0.5%;" class="btn btn-outline-success">Buy</a>
 						</logic:notEqual>
 					</logic:present>
 				</logic:equal>

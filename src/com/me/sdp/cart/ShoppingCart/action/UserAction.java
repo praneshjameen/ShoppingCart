@@ -326,6 +326,7 @@ public class UserAction extends DispatchAction {
 				Integer quantity = Integer.parseInt(q);
 				ShoppingCartDA dataAccess = new ShoppingCartDA();
 				dataAccess.cancelItem(orderId, productId, quantity);
+				request.getSession().setAttribute("message", "Product Cancellation is successful");
 				return mapping.findForward("viewOrders");
 			} else
 				return mapping.findForward("success");
