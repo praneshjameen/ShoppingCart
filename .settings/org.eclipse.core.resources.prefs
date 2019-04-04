@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/jsp/cart.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/editProduct.jsp=UTF-8
+encoding//src/com/me/sdp/cart/ShoppingCart/ShoppingCartDA.java=UTF-8

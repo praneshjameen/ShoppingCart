@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ShoppingCart">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-io.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-io.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts-core.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/struts-core.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oro.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/oro.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-logging.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-digester.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-digester.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-beanutils.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts-taglib-1.3.10.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/struts-taglib-1.3.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/antlr.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-chain.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-chain.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-fileupload.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-validator.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/workSpace/ShoppingCart/WebContent/WEB-INF/lib/commons-validator.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ShoppingCart"/>
+        <property name="java-output-path" value="/ShoppingCart/WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
